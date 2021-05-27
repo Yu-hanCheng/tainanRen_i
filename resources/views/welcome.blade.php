@@ -160,7 +160,7 @@
 									<small class="text-muted fw-light">誦經累計</small> {{ $book1 }}
 									<small class="text-muted fw-light">次</small>
 								</h1>
-								<button name="book1" type="submit" class="w-100 btn btn-danger">
+								<button name="book1" type="submit" class="w-100 btn btn-danger" disabled>
 									彌勒救苦真經本文
 								</button>
 							</div>
@@ -176,7 +176,7 @@
 									<small class="text-muted fw-light">誦經累計</small> {{ $book2 }}
 									<small class="text-muted fw-light">次</small>
 								</h1>
-								<button name="book2" type="submit" class="w-100 btn btn-info">
+								<button name="book2" type="submit" class="w-100 btn btn-info" disabled>
 									心經本文
 								</button>
 							</div>
@@ -192,7 +192,7 @@
 									<small class="text-muted fw-light">累計</small> {{ $book3 }}
 									<small class="text-muted fw-light">次</small>
 								</h1>
-								<button name="book3" type="submit" class="w-100 btn btn-warning">
+								<button name="book3" type="submit" class="w-100 btn btn-warning" disabled>
 									桃園明聖經本文
 								</button>
 							</div>
@@ -211,7 +211,7 @@
 									<small class="text-muted fw-light">吃齋累計</small> {{ $veg }}
 									<small class="text-muted fw-light">次</small>
 								</h1>
-								<button name="veg" type="submit" class="w-100 btn btn-success">
+								<button name="veg" type="submit" class="w-100 btn btn-success" disabled>
 									響應吃素1餐/次
 								</button>
 							</div>
