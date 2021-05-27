@@ -64,81 +64,7 @@
 		</header>
 
 		<main>
-			<form action="/" method="post">
-				@csrf
-				<div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
-					<div class="col">
-						<div class="card mb-3 rounded-3 shadow-sm">
-							<div class="card-header py-3">
-								<h4 class="my-0 fw-normal">彌勒救苦真經</h4>
-							</div>
-							<div class="card-body">
-								<h1 class="card-title pricing-card-title">
-									<small class="text-muted fw-light">誦經累計</small> {{ $book1 }}
-									<small class="text-muted fw-light">次</small>
-								</h1>
-								<button name="book1" type="submit" class="w-100 btn btn-lg btn-danger">
-									彌勒救苦真經本文
-								</button>
-							</div>
-						</div>
-					</div>
-					<div class="col">
-						<div class="card mb-3 rounded-3 shadow-sm">
-							<div class="card-header py-3">
-								<h4 class="my-0 fw-normal">心經</h4>
-							</div>
-							<div class="card-body">
-								<h1 class="card-title pricing-card-title">
-									<small class="text-muted fw-light">誦經累計</small> {{ $book2 }}
-									<small class="text-muted fw-light">次</small>
-								</h1>
-								<button name="book2" type="submit" class="w-100 btn btn-lg btn-success">
-									心經本文
-								</button>
-							</div>
-						</div>
-					</div>
-					<div class="col">
-						<div class="card mb-3 rounded-3 shadow-sm">
-							<div class="card-header py-3">
-								<h4 class="my-0 fw-normal">桃園明聖經y</h4>
-							</div>
-							<div class="card-body">
-								<h1 class="card-title pricing-card-title">
-									<small class="text-muted fw-light">累計</small> {{ $book3 }}
-									<small class="text-muted fw-light">次</small>
-								</h1>
-								<button name="book3" type="submit" class="w-100 btn btn-lg btn-success">
-									桃園明聖經本文
-								</button>
-							</div>
-						</div>
-					</div>
-					<div class="col">
-						<div class="card mb-3 rounded-3 shadow-sm">
-							<div class="card-header py-3">
-								<h4 class="my-0 fw-normal">1 日 1 齋疫情消災</h4>
-							</div>
-							<div class="card-body">
-								<h1 class="card-title pricing-card-title">
-									<small class="text-muted fw-light">一日一齋累計</small> {{ $veg }}
-									<small class="text-muted fw-light">次</small>
-								</h1>
-								<button name="veg" type="submit" class="w-100 btn btn-lg btn-primary">
-									我已經響應吃素1餐/次
-								</button>
-							</div>
-						</div>
-					</div>
-				</div>
-			</form>
-			<div id="dialog_sarah" title="Basic dialog">
-  				<p>This is the default dialog which is useful for displaying information. The dialog window can be moved, resized and closed with the &apos;x&apos; icon.</p>
-			</div>
- 
-		</main>
-		<input name="addSubmit" type="button" class="T4" id="addSubmit" onclick="javascript:add()" value="我已經完成誦經">
+		<div align="center"><input name="addSubmit" type="button" class="btn btn-primary btn-lg" id="addSubmit" onclick="javascript:add()" value="我已經完成誦經"></div>
 		<div class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-draggable ui-resizable" tabindex="-1"
 			role="dialog" aria-labelledby="ui-dialog-title-formadd"
 			style="display: none; z-index: 1000; outline: 0px; position: fixed;">
@@ -161,78 +87,11 @@
 							<td>單位</td>
 							<td>
 								<select name="tan" id="tan">
-									<option value="佛院">1佛院</option>
-									<option value="大仁">2大仁</option>
-									<option value="正杉">3正杉</option>
-									<option value="正益">4正益</option>
-									<option value="正馨">5正馨</option>
-									<option value="育仲">6育仲</option>
-									<option value="育佳">7育佳</option>
-									<option value="育倫">8育倫</option>
-									<option value="育儒">9育儒</option>
-									<option value="育化">10育化</option>
-									<option value="育和">11育和</option>
-									<option value="育品">12育品</option>
-									<option value="育啟">13育啟</option>
-									<option value="育善">14育善</option>
-									<option value="育圓">15育圓</option>
-									<option value="育基">16育基</option>
-									<option value="育如">17育如</option>
-									<option value="育宗">18育宗</option>
-									<option value="育定">19育定</option>
-									<option value="育宜">20育宜</option>
-									<option value="育實">21育實</option>
-									<option value="育寬">22育寬</option>
-									<option value="育寶">23育寶</option>
-									<option value="育崇">24育崇</option>
-									<option value="育康">25育康</option>
-									<option value="育廣">26育廣</option>
-									<option value="育弘">27育弘</option>
-									<option value="育彬">28育彬</option>
-									<option value="育恕">29育恕</option>
-									<option value="育愿">30育愿</option>
-									<option value="育慶">31育慶</option>
-									<option value="育才">32育才</option>
-									<option value="育揚">33育揚</option>
-									<option value="育新">34育新</option>
-									<option value="育明">35育明</option>
-									<option value="育晉">36育晉</option>
-									<option value="育晟">37育晟</option>
-									<option value="育暄">38育暄</option>
-									<option value="育暉">39育暉</option>
-									<option value="育楷">40育楷</option>
-									<option value="育浩">41育浩</option>
-									<option value="育濟">42育濟</option>
-									<option value="育熙">43育熙</option>
-									<option value="育珠">44育珠</option>
-									<option value="育璞">45育璞</option>
-									<option value="育盛">46育盛</option>
-									<option value="育睦">47育睦</option>
-									<option value="育祥">48育祥</option>
-									<option value="育禮">49育禮</option>
-									<option value="育竹">50育竹</option>
-									<option value="育篤">51育篤</option>
-									<option value="育義">52育義</option>
-									<option value="育至">53育至</option>
-									<option value="育興">54育興</option>
-									<option value="育航">55育航</option>
-									<option value="育良">56育良</option>
-									<option value="育茂">57育茂</option>
-									<option value="育蓁">58育蓁</option>
-									<option value="育親">59育親</option>
-									<option value="育觀">60育觀</option>
-									<option value="育詮">61育詮</option>
-									<option value="育證">62育證</option>
-									<option value="育貫">63育貫</option>
-									<option value="育通">64育通</option>
-									<option value="育遵">65育遵</option>
-									<option value="育量">66育量</option>
-									<option value="育開">67育開</option>
-									<option value="育騏">68育騏</option>
-									<option value="育麟">69育麟</option>
-									<option value="育鼎">70育鼎</option>
-									<option value="育齊">71育齊</option>
-									<option value="致遠">72致遠</option>
+									<option value="佛院">1佛院</option>      
+									@foreach($tans as $tan)
+									<option value="{{$tan->tan_name}}">{{ $tan->tan_name}}</option>
+									@endforeach
+									
 								</select>
 							</td>
 						</tr>
@@ -287,6 +146,79 @@
 				</div>
 			</div>
 		</div>
+		<br>
+			<form action="/" method="post">
+				@csrf
+				<div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+					<div class="col">
+						<div class="card mb-3 rounded-3 shadow-sm">
+							<div class="card-header py-3">
+								<h4 class="my-0 fw-normal">彌勒救苦真經</h4>
+							</div>
+							<div class="card-body">
+								<h1 class="card-title pricing-card-title">
+									<small class="text-muted fw-light">誦經累計</small> {{ $book1 }}
+									<small class="text-muted fw-light">次</small>
+								</h1>
+								<button name="book1" type="submit" class="w-100 btn btn-danger">
+									彌勒救苦真經本文
+								</button>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="card mb-3 rounded-3 shadow-sm">
+							<div class="card-header py-3">
+								<h4 class="my-0 fw-normal">心經</h4>
+							</div>
+							<div class="card-body">
+								<h1 class="card-title pricing-card-title">
+									<small class="text-muted fw-light">誦經累計</small> {{ $book2 }}
+									<small class="text-muted fw-light">次</small>
+								</h1>
+								<button name="book2" type="submit" class="w-100 btn btn-info">
+									心經本文
+								</button>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="card mb-3 rounded-3 shadow-sm">
+							<div class="card-header py-3">
+								<h4 class="my-0 fw-normal">桃園明聖經</h4>
+							</div>
+							<div class="card-body">
+								<h1 class="card-title pricing-card-title">
+									<small class="text-muted fw-light">累計</small> {{ $book3 }}
+									<small class="text-muted fw-light">次</small>
+								</h1>
+								<button name="book3" type="submit" class="w-100 btn btn-warning">
+									桃園明聖經本文
+								</button>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+			</form>
+			<div class="col mb-3 rounded-3 shadow-sm" align="center">
+						<div class="card mb-3 rounded-3 shadow-sm">
+							<div class="card-header py-3">
+								<h4 class="my-0 fw-normal">1 日 1 齋疫情消災</h4>
+							</div>
+							<div class="card-body">
+								<h1 class="card-title pricing-card-title">
+									<small class="text-muted fw-light">吃齋累計</small> {{ $veg }}
+									<small class="text-muted fw-light">次</small>
+								</h1>
+								<button name="veg" type="submit" class="w-100 btn btn-success">
+									響應吃素1餐/次
+								</button>
+							</div>
+						</div>
+					</div>
+		</main>
+		
 	</div>
 
 	<!-- bootstrap -->
@@ -356,23 +288,13 @@
 							data: data,
 							cache: false,
 							headers: {'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')},
-							// success: function (data) {
-								
-							// 	if (data['success'])  {
-							// 	location.reload();
+							success: function (data) {
+							
 							// // 		// (jQuery).unblockUI();
-							// // 		(jQuery)("#formadd").dialog('close');
-							// // 		$.ajax({
-							// // 			url: "/",
-							// // 			type: "get",
-							// // 			cache: false,
-
-							// // 			success: function (data) {
-							// // 				$("#countnow").html(data);
-							// // 			}
-							// // 		});
+									(jQuery)("#formadd").dialog('close');
+									window.location.href =	'/';
 							// 	}
-							// }
+							}
 						});
 					},
 					"取消": function () {
