@@ -25,21 +25,21 @@
 	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 	
 	<!-- SEO -->
-	<meta name=" keywords" content="發一崇德台南道場,發一崇德,台南道場,台南" />
+	<meta name=" keywords" content="發一崇德台南道場,發一崇德,台南道場,台南,仁義區" />
 	<meta name="description"
 		content="發一崇德台南道場，響應您我善願同步誦經祈願，恭誦彌勒救苦真經，心經誦經後點擊「我已經完成誦經」迴向，把愛串起來 凝聚您我慈悲之心，叩求諸天仙佛慈悲挽化疫情止息 願天下眾生平安" />
 
 	<!-- Open Graph -->
-	<meta property="og:title" content="發一崇德台南道場,發一崇德,台南道場,台南" />
+	<meta property="og:title" content="發一崇德台南道場仁義區,發一崇德,台南道場,台南" />
 	<meta property="og:description"
-		content="發一崇德台南道場，響應您我善願同步誦經祈願，恭誦彌勒救苦真經，心經誦經後點擊「我已經完成誦經」迴向，把愛串起來 凝聚您我慈悲之心，叩求諸天仙佛慈悲挽化疫情止息 願天下眾生平安" />
+		content="發一崇德台南道場，響應您我善願同步誦經祈願，恭誦彌勒救苦真經，心經，明聖經誦經後點擊「我已經完成誦經」迴向，把愛串起來 凝聚您我慈悲之心，叩求諸天仙佛慈悲挽化疫情止息 願天下眾生平安" />
 </head>
 
 <body>
 	<div class="container py-3">
 		<header>
 			<div class="pricing-header p-2 pb-md-4 mx-auto text-center">
-				<h1 class="display-6 fw-normal">發一崇德台南學界
+				<h1 class="display-6 fw-normal">發一崇德台南仁義區
 					<span class="badge rounded-pill bg-light text-dark my-1">愛的共振
 						<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#dc3545"
 							class="bi bi-heart-fill mb-2" viewBox="0 0 16 16">
@@ -49,16 +49,19 @@
 				</h1>
 				<img src="{{ URL::to('/') }}/image/command.jpg" class="img-fluid rounded mb-4 col-sm-12 col-md-8"
 					alt="號召令" />
-				<h2>響應您我善願同步祈願</h2>
-				<p class="fs-6 text-muted">
-					相信上天、相信愿力、相信愿力抵業力<br>
-					事事感恩遇考懺悔、望人人都能脫劫關
-				</p>
 				<h2>善願同步迴向祈願</h2>
 				<p class="fs-6 text-muted">
-					下面三類其一完成後，
-					<br>點擊「我已經完成」迴向
-					<br>把愛串起來 凝聚您我慈悲之心
+				把愛串起來 凝聚您我慈悲之心<br>
+以愿力守護人間<br>
+叩求諸天仙佛慈悲<br>
+挽化疫情止息 上天早降甘霖<br>
+天佑台灣 世界平安<br>
+				</p>
+				<h4>點擊「我已經完成誦經」迴向</h4>
+				<p class="fs-6 text-muted">
+					相信愿力抵業力
+					<br>事事感恩遇考懺悔
+					<br>望人人都能脫劫關
 				</p>
 			</div>
 		</header>
