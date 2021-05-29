@@ -68,6 +68,7 @@
 
 		<main>
 		<div align="center"><input name="addSubmit" type="button" class="btn btn-primary btn-lg" id="addSubmit" onclick="javascript:add()" value="我已經完成誦經"></div>
+		<br><div align="center" class="fs-6 text-muted">註記:第一階段:即曰起~6/23止。6/24早上9:00功德迴向為大家祈健康平安、疫情消災。</div>
 		<div class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-draggable ui-resizable" tabindex="-1"
 			role="dialog" aria-labelledby="ui-dialog-title-formadd"
 			style="display: none; z-index: 1000; outline: 0px; position: fixed;">
