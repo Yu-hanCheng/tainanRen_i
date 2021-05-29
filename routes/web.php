@@ -20,4 +20,6 @@ use App\Http\Controllers\IndexController;
 
 Route::post('/',  [IndexController::class, 'store'])->name('updatecount');
 Route::get('/',  [IndexController::class, 'show']);
-
+Route::get('mi',  function(){return View('mi');});
+Route::get('mind',  function(){return View('mind');});
+Route::get('min',  function(){return View('min');});
