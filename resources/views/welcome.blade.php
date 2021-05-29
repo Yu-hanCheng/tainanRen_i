@@ -284,7 +284,7 @@
 						//進行資料庫操作
 						(jQuery).ajax({
 							type: "POST",
-							url: "updatecount",
+							url: "/",
 							data: data,
 							cache: false,
 							headers: {'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')},

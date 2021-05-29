@@ -18,5 +18,6 @@ use App\Http\Controllers\IndexController;
 //     return view('welcome');
 // });
 
+Route::post('/',  [IndexController::class, 'store'])->name('updatecount');
 Route::get('/',  [IndexController::class, 'show']);
-Route::post('updatecount',  [IndexController::class, 'store']);
+
