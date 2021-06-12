@@ -91,7 +91,7 @@
 							<td>單位</td>
 							<td>
 								<select name="tan" id="tan">
-									<option value="佛院">1佛院</option>      
+									<option value="佛院">佛院</option>      
 									@foreach($tans as $tan)
 									<option value="{{$tan->tan_name}}">{{ $tan->tan_name}}</option>
 									@endforeach
