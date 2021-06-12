@@ -164,7 +164,7 @@
 									<small class="text-muted fw-light">誦經累計</small> {{ $book1 }}
 									<small class="text-muted fw-light">次</small>
 								</h1>
-								<a type="button" href="{{url('mi')}}" value="彌勒救苦真經本文" target="_blank" class="w-100 btn btn-danger">彌勒救苦真經本文</a>
+								<a href="{{url('mi')}}" value="彌勒救苦真經本文" target="_blank" class="w-100 btn btn-danger">彌勒救苦真經本文</a>
 							</div>
 						</div>
 					</div>
@@ -178,7 +178,7 @@
 									<small class="text-muted fw-light">誦經累計</small> {{ $book2 }}
 									<small class="text-muted fw-light">次</small>
 								</h1>
-								<a name="book2" type="button" href="{{url('mind')}}" value="心經本文" target="_blank" class="w-100 btn btn-info">
+								<a name="book2" href="{{url('mind')}}" value="心經本文" target="_blank" class="w-100 btn btn-info">
 									心經本文
 								</a>
 							</div>
@@ -194,7 +194,7 @@
 									<small class="text-muted fw-light">累計</small> {{ $book3 }}
 									<small class="text-muted fw-light">次</small>
 								</h1>
-								<a name="book3" type="button" class="w-100 btn btn-warning" href="{{url('min')}}" value="明聖經本文" target="_blank" >
+								<a name="book3" class="w-100 btn btn-warning" href="{{url('min')}}" value="明聖經本文" target="_blank" >
 									桃園明聖經本文
 								</a>
 							</div>
