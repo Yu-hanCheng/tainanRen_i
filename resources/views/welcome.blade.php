@@ -47,8 +47,6 @@
 								d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z" />
 						</svg></span>
 				</h1>
-				<img src="{{ URL::to('/') }}/image/command.jpg" class="img-fluid rounded mb-4 col-sm-12 col-md-8"
-					alt="號召令" />
 				<h2>善願同步迴向祈願</h2>
 				<p class="fs-6 text-muted">
 				把愛串起來 凝聚您我慈悲之心<br>
@@ -68,7 +66,7 @@
 
 		<main>
 		<div align="center"><input name="addSubmit" type="button" class="btn btn-primary btn-lg" id="addSubmit" onclick="javascript:add()" value="我已經完成誦經"></div>
-		<br><div align="center" class="fs-6 text-muted">第一階段:即曰起~6/23止。6/24早上9:00功德迴向為大家祈健康平安、疫情消災。</div>
+		<br><div align="center" class="fs-6 text-muted">第二階段:即曰起~7/12止。7/24早上9:00功德迴向為大家祈健康平安、疫情消災。</div>
 		<div class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-draggable ui-resizable" tabindex="-1"
 			role="dialog" aria-labelledby="ui-dialog-title-formadd"
 			style="display: none; z-index: 1000; outline: 0px; position: fixed;">
